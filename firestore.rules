@@ -1,0 +1,95 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // 1. Global Catch-all Default-Deny Security Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Common Validation Helpers
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isPlatformAdmin() {
+      return request.auth != null && 
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'Platform Admin', 'founder', 'Merchant Owner']);
+    }
+
+    function isTenantStaff(tenantId) {
+      return request.auth != null && (
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) && (
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.tenantId == tenantId ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['admin', 'Platform Admin', 'founder', 'Merchant Owner', 'Manager', 'Staff']
+        )
+      );
+    }
+
+    function getTenantIdFromAuth() {
+      return exists(/databases/$(database)/documents/users/$(request.auth.uid)) ? 
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.tenantId : 'default_tenant';
+    }
+
+    // 2. Dynamic, flat industry-prefixed collections mapping from custom client wrapper
+    
+    // Tenants Collection Suffix
+    match /{collectionId}/{tenantId} {
+      allow read: if collectionId.matches('^[a-z]+_tenants$');
+      allow write: if collectionId.matches('^[a-z]+_tenants$') && isTenantStaff(tenantId);
+    }
+
+    // Products Collection Suffix
+    match /{collectionId}/{productId} {
+      allow read: if collectionId.matches('^[a-z]+_products$');
+      allow write: if collectionId.matches('^[a-z]+_products$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // Orders Collection Suffix
+    match /{collectionId}/{orderId} {
+      allow read: if collectionId.matches('^[a-z]+_orders$');
+      allow create: if collectionId.matches('^[a-z]+_orders$'); // Allows guest buyer checkout placements
+      allow update, delete: if collectionId.matches('^[a-z]+_orders$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // Billing Logs Suffix
+    match /{collectionId}/{logId} {
+      allow read, write: if collectionId.matches('^[a-z]+_billing_logs$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // Metrics Suffix
+    match /{collectionId}/{metricId} {
+      allow read: if collectionId.matches('^[a-z]+_metrics$');
+      allow write: if collectionId.matches('^[a-z]+_metrics$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // Coupons Suffix
+    match /{collectionId}/{couponId} {
+      allow read: if collectionId.matches('^[a-z]+_coupons$');
+      allow write: if collectionId.matches('^[a-z]+_coupons$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // Categories Suffix
+    match /{collectionId}/{categoryId} {
+      allow read: if collectionId.matches('^[a-z]+_categories$');
+      allow write: if collectionId.matches('^[a-z]+_categories$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // KB Chunks Suffix
+    match /{collectionId}/{chunkId} {
+      allow read: if collectionId.matches('^[a-z]+_kb_chunks$');
+      allow write: if collectionId.matches('^[a-z]+_kb_chunks$') && isTenantStaff(getTenantIdFromAuth());
+    }
+
+    // 3. Root Collections
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    match /audit_logs/{logId} {
+      allow read, write: if true;
+    }
+  }
+}

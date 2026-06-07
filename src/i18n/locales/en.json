@@ -1,0 +1,205 @@
+{
+  "back_home": "Back to home",
+  "choose_industry": "Choose an industry",
+  "choose_direction": "Select your business direction",
+  "confirm_and_login": "Confirm and Login",
+  "official_home": "Official Home",
+  "user_login": "User Login",
+  "decision_config": "Decision Configuration",
+  "incubator": "Incubator",
+  "merchant_dashboard": "Merchant Dashboard",
+  "shop": "Storefront",
+  "expert_teams": "Expert Teams",
+  "execution_control": "Execution Control",
+  "knowledge_base": "Knowledge Base",
+  "super_control": "Platform Admin",
+
+  "google_login_failed": "Google login failed, please try opening in a new window",
+  "unauthorized_domain": "[Domain authorization restriction] Domain {{hostname}} is not in the Firebase authorized whitelist. You can sign up or sign in with email.",
+  "enter_username": "Please enter a username or account name to continue.",
+  "sso_success": "SSO connected successfully. Account provisioning completed.",
+  "sso_registration_error": "SSO registration failed, please refresh and try again.",
+  "enter_email": "Please enter your email to continue",
+  "password_min_length": "Password must be at least 6 characters",
+  "signup_success": "Signup successful! Loading your digital company configuration.",
+  "auth_service_error": "Authentication service communication error, please try again",
+  "wrong_password": "Password does not match our records, please check.",
+  "email_in_use": "This email is already in use. Switch to 'existing account' mode.",
+  "user_not_found": "Account not found. Switch to 'create account' mode.",
+
+  "start_free_trial": "Start free trial",
+  "free_trial_offer": "3-day free trial, then only ¥1/month",
+  "start_trial_with": "Start trial with {{provider}}",
+  "wechat_nickname": "WeChat nickname / ID",
+  "tiktok_username": "TikTok username (Username)",
+  "github_username": "GitHub username",
+  "sso_username_placeholder": "Enter your {{provider}} username or handle",
+  "associate_phone_or_email_label": "Associated phone number or email",
+  "associate_phone_or_email_placeholder": "Phone number or commonly used email for billing",
+  "authorize_and_create_company": "Authorize and continue to create company",
+  "email_label": "Email",
+  "no_account_register": "No account? Register now",
+  "have_account_login": "Have an account? Sign in",
+  "password_placeholder": "Enter a secure password (min 6 characters)",
+  "create_account_now_free": "Create a new account for free now",
+  "verify_and_signin": "Verify and sign in",
+  "continue_with_email": "Continue with email",
+  "or": "or",
+  "continue_with_google": "Continue with Google",
+  "continue_with_wechat": "Continue with WeChat",
+  "continue_with_tiktok": "Continue with TikTok",
+  "continue_with_github": "Continue with GitHub",
+  "cancel_and_back_home": "Cancel and return to home"
+  ,
+  "platform_admin_center": "Platform Control Center",
+  "control_panel": "Control Panel",
+  "create_company": "Create Company",
+  "create_your_company": "Create your company",
+  "ai_team_ready": "AI teams ready to deploy",
+  "start_business_now": "Start operating your business now",
+  "create_my_company": "Create my company (merchant dashboard)",
+  "modaui_platform_center": "MODAUI Platform Control Center",
+  "design": "Design",
+  "procurement": "Procurement",
+  "operations": "Operations",
+  "marketing": "Marketing",
+  "finance": "Finance",
+  "customer_service": "Customer Service",
+  "team_6_members": "Team: 6 members",
+  "one_click_start": "One-click start"
+  ,
+  "platformAdmin.totalTenants": "Tenants total",
+  "platformAdmin.activeInstances": "Active instances",
+  "platformAdmin.totalSpecialists": "Total specialist seats",
+  "platformAdmin.searchPlaceholder": "Search company name, ID or industry...",
+  "platformAdmin.noMatchingTenants": "No matching tenants found",
+  "platformAdmin.editButton": "Edit",
+  "platformAdmin.privilegePanelTitle": "Tenant Privilege Governance Panel",
+  "platformAdmin.privilegePanelDesc": "Click any company's 'Edit' button on the left to modify, onboard, or scale its AI specialists, plugins and seats.",
+"platformAdmin.checkingAuth": "Verifying admin session, please wait...",
+  "systemBase.swaggerIdle": "[Idle] Waiting for API call validation...",
+  "systemBase.swaggerCalling": "[Calling] POST {{endpoint}} handshake established. Performing RBAC auth check...",
+  "systemBase.swaggerSuccess": "[Checked] 200 OK\nResponse Payload:\n{\n  \"status\": \"success\",\n  \"requestId\": \"{{requestId}}\",\n  \"timestamp\": \"2026-06-02 23:53:50 UTC\",\n  \"data\": {\n    \"authChecked\": true,\n    \"userRole\": \"AI_AGENT_AUTONOMOUS\",\n    \"allocatedHost\": \"https://api.modaui.ai/api/v1\",\n    \"envPort\": 3000\n  }\n}",
+  "systemBase.backToConsole": "Back to system console",
+  "systemBase.title": "System Base Layer",
+  "systemBase.apiSecurity": "API Security Level: {{tier}}",
+  "systemBase.defaultPort": "Default container port: {{port}}",
+  "systemBase.tab.rbac": "RBAC",
+  "systemBase.tab.api": "API / Swagger",
+  "systemBase.tab.firewall": "WAF / Firewall",
+  "systemBase.tab.queue": "Queues",
+  "systemBase.tab.bucket": "Storage Buckets",
+  "systemBase.rbacHeading": "RBAC Core Permissions Matrix",
+  "systemBase.table.role": "Role",
+  "systemBase.table.scope": "Scope",
+  "systemBase.table.createShop": "Create Shop",
+  "systemBase.table.deployAI": "Deploy AI",
+  "systemBase.table.auditFinancials": "Audit Financials",
+  "systemBase.table.controls": "Controls",
+  "systemBase.apiEndpointsHeading": "API endpoints",
+  "systemBase.terminalResponseHeading": "Terminal Response",
+  "ecc": {
+    "selectEngineer": "Select precision digital engineer:",
+    "controlPanelTitle": "ECC | {{name}} ({{role}}) Control Panel",
+    "assignedTargetController": "Assigned Target System Controller",
+    "isolatedCognitiveShield": "Isolated Cognitive Shield",
+    "securityKnobsTitle": "⚙️ ECC Security Knobs",
+    "budgetLimitLabel": "Single transaction authorization limit",
+    "isolateSpaceLabel": "Physical sandbox isolation",
+    "strictFilterLabel": "Strict jailbreak interception",
+    "sandboxedOk": "SANDBOXED_OK",
+    "exposed": "EXPOSED",
+    "activeFilter": "ACTIVE_FILTER",
+    "bypassWarn": "BYPASS_WARN",
+    "specializedSkillsTitle": "🛠️ Specialized Skillset Toggles",
+    "workspaceExplorerTitle": "📁 Sandbox File Explorer",
+    "newVirtualFilePlaceholder": "e.g.: trend_eval.py",
+    "createButton": "＋ Create",
+    "editingSandbox": "Editing Sandbox: {{filename}}",
+    "cancel": "Cancel",
+    "saveSandboxButton": "Write file and restart Sandbox",
+    "openCodeViewerTitle": "Open Code Viewer",
+    "purgeSandboxAssetTitle": "Purge Sandbox Asset",
+    "thoughtTraceHeading": "🧠 ${{agent}} System Read/Write Thought Trace Terminal:",
+    "skillOverridePlaceholder": "Customize instructions override...",
+    "skills": {
+      "layout_autumn": {
+        "name": "Autumn/Winter layout self-heal",
+        "prompt": "Match QuietLuxury old-money energy and auto-align coat renderings."
+      },
+      "palette_generator": {
+        "name": "Multidimensional palette trend analysis",
+        "prompt": "Render RGB and hex palettes instantly for high-weighted categories."
+      },
+      "spu_poster_synth": {
+        "name": "Multimodal product poster layout",
+        "prompt": "Integrate with Gemini-2.0 Imageify for poster assembly."
+      },
+      "factory_reorder": {
+        "name": "Flexible OEM reorder",
+        "prompt": "Trigger blanket orders when SPU stock falls below 20% threshold."
+      },
+      "lead_time_forecast": {
+        "name": "Upstream fabric lead time forecast",
+        "prompt": "Calculate in-transit material days using multi-dimensional regression."
+      },
+      "supplier_pricing_guard": {
+        "name": "Supplier cost fluctuation guard",
+        "prompt": "Lock raw material escalation caps and tier discount purchase orders."
+      },
+      "voucher_balancing": {
+        "name": "Voucher balancing optimization",
+        "prompt": "Reconcile weekly rebates to ensure single-order net margin > 20%."
+      },
+      "conversion_tuning": {
+        "name": "Conversion tuning autopilot",
+        "prompt": "Track funnel leak and micro-adjust pricing in real time."
+      },
+      "tax_hedge_recon": {
+        "name": "Cross-border tax hedge reconciliation",
+        "prompt": "Compare Stripe revenue with customs invoices to hedge FX settlement losses."
+      },
+      "refund_authenticator": {
+        "name": "VIP refund authenticator",
+        "prompt": "Intercept complaint causes and refund along the original path."
+      },
+      "reappointment_handler": {
+        "name": "Appointment rescheduling handler",
+        "prompt": "Trigger CRM refunds and book next-day VIP service in the early hours."
+      },
+      "antifraud_screener": {
+        "name": "Group-buy fraud screener",
+        "prompt": "Compare registration credit scores and block multi-account returns."
+      },
+      "ad_bidding_calculator": {
+        "name": "Social ad bidding calculator",
+        "prompt": "Track trending keywords on Xiaohongshu and TikTok."
+      },
+      "pinterest_textify": {
+        "name": "Multimodal text virality engine",
+        "prompt": "Generate commute-friendly, slimming-enhancement copy headlines."
+      },
+      "seo_dynamic_injector": {
+        "name": "SEO hot keyword injector",
+        "prompt": "Rewrite top-selling keywords into store product titles automatically."
+      },
+      "token_cost_ledger": {
+        "name": "Daily compute cost ledger",
+        "prompt": "Compare each agent’s consumption and generate daily token accounting."
+      },
+      "payouts_tax_calculator": {
+        "name": "Payouts tax calculator",
+        "prompt": "Aggregate Stripe tax invoices and offset cross-border fees."
+      }
+    },
+    "log": {
+      "updateSecurity": "[ECC Security] Updated {{agentName}} security parameter [{{field}}] to {{value}}.",
+      "toggleSkill": "[ECC Skill Toggle] {{agentName}} skill '{{skillName}}' is now {{status}}.",
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "createdVirtualFile": "[ECC Sandbox] Created virtual file '{{fileName}}' for {{agentName}}.",
+      "deletedVirtualFile": "[ECC Sandbox] Deleted virtual file '{{fileName}}' for {{agentName}}.",
+      "savedVirtualFile": "[ECC Sandbox] Saved virtual file '{{fileName}}' for {{agentName}}."
+    }
+  }
+}

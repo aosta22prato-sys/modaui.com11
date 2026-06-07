@@ -1,0 +1,205 @@
+{
+  "back_home": "Επιστροφή στην αρχική",
+  "choose_industry": "Επιλέξτε κλάδο",
+  "choose_direction": "Επιλέξτε την επιχειρηματική κατεύθυνση",
+  "confirm_and_login": "Επιβεβαίωση και σύνδεση",
+  "official_home": "Επίσημη αρχική",
+  "user_login": "Σύνδεση χρήστη",
+  "decision_config": "Ρύθμιση αποφάσεων",
+  "incubator": "Εκκολαπτήριο",
+  "merchant_dashboard": "Πίνακας εμπόρου",
+  "shop": "Κατάστημα",
+  "expert_teams": "Ομάδες ειδικών",
+  "execution_control": "Έλεγχος εκτέλεσης",
+  "knowledge_base": "Βάση γνώσης",
+  "super_control": "Διαχείριση πλατφόρμας",
+
+  "google_login_failed": "Αποτυχία σύνδεσης Google, δοκιμάστε σε νέο παράθυρο",
+  "unauthorized_domain": "[Περιορισμός εξουσιοδότησης τομέα] Ο τομέας {{hostname}} δεν είναι στη whitelist του Firebase. Μπορείτε να εγγραφείτε ή να συνδεθείτε με email.",
+  "enter_username": "Εισάγετε ένα όνομα χρήστη ή λογαριασμό για να συνεχίσετε.",
+  "sso_success": "Το SSO συνδέθηκε με επιτυχία. Η προμήθεια λογαριασμού ολοκληρώθηκε.",
+  "sso_registration_error": "Η εγγραφή SSO απέτυχε, ανανεώστε και δοκιμάστε ξανά.",
+  "enter_email": "Εισάγετε το email σας για να συνεχίσετε",
+  "password_min_length": "Ο κωδικός πρέπει να έχει τουλάχιστον 6 χαρακτήρες",
+  "signup_success": "Επιτυχία εγγραφής! Φόρτωση ρύθμισης εταιρείας.",
+  "auth_service_error": "Σφάλμα επικοινωνίας υπηρεσίας ελέγχου ταυτότητας, δοκιμάστε ξανά",
+  "wrong_password": "Ο κωδικός δεν ταιριάζει με τα αρχεία μας, ελέγξτε.",
+  "email_in_use": "Αυτό το email χρησιμοποιείται ήδη. Αλλάξτε σε 'υπάρχον λογαριασμό'.",
+  "user_not_found": "Ο λογαριασμός δεν βρέθηκε. Αλλάξτε σε 'δημιουργία λογαριασμού'.",
+
+  "start_free_trial": "Ξεκινήστε δωρεάν δοκιμή",
+  "free_trial_offer": "Δωρεάν δοκιμή 3 ημερών, στη συνέχεια μόνο ¥1/μήνα",
+  "start_trial_with": "Ξεκινήστε δοκιμή με {{provider}}",
+  "wechat_nickname": "Ψευδώνυμο / ID WeChat",
+  "tiktok_username": "Όνομα χρήστη TikTok",
+  "github_username": "Όνομα χρήστη GitHub",
+  "sso_username_placeholder": "Εισάγετε το όνομα χρήστη {{provider}}",
+  "associate_phone_or_email_label": "Συσχετισμένο τηλέφωνο ή email",
+  "associate_phone_or_email_placeholder": "Τηλέφωνο ή email που χρησιμοποιείται για χρέωση",
+  "authorize_and_create_company": "Εξουσιοδοτήστε και συνεχίστε για δημιουργία εταιρείας",
+  "email_label": "Email",
+  "no_account_register": "Δεν έχετε λογαριασμό; Εγγραφείτε τώρα",
+  "have_account_login": "Έχετε λογαριασμό; Συνδεθείτε",
+  "password_placeholder": "Εισάγετε ασφαλή κωδικό (ελάχιστο 6 χαρακτήρες)",
+  "create_account_now_free": "Δημιουργήστε νέο λογαριασμό δωρεάν τώρα",
+  "verify_and_signin": "Επαληθεύστε και συνδεθείτε",
+  "continue_with_email": "Συνεχίστε με email",
+  "or": "ή",
+  "continue_with_google": "Συνεχίστε με Google",
+  "continue_with_wechat": "Συνεχίστε με WeChat",
+  "continue_with_tiktok": "Συνεχίστε με TikTok",
+  "continue_with_github": "Συνεχίστε με GitHub",
+  "cancel_and_back_home": "Ακύρωση και επιστροφή στην αρχική"
+  ,
+  "platform_admin_center": "Κέντρο ελέγχου πλατφόρμας",
+  "control_panel": "Πίνακας ελέγχου",
+  "create_company": "Δημιουργία εταιρείας",
+  "create_your_company": "Δημιουργήστε την εταιρεία σας",
+  "ai_team_ready": "Οι ομάδες AI είναι έτοιμες",
+  "start_business_now": "Ξεκινήστε τώρα τη λειτουργία της επιχείρησης",
+  "create_my_company": "Δημιουργήστε την εταιρεία μου (πίνακας εμπόρου)",
+  "modaui_platform_center": "Κέντρο ελέγχου πλατφόρμας MODAUI",
+  "design": "Σχεδίαση",
+  "procurement": "Προμήθειες",
+  "operations": "Λειτουργίες",
+  "marketing": "Μάρκετινγκ",
+  "finance": "Χρηματοοικονομικά",
+  "customer_service": "Εξυπηρέτηση Πελατών",
+  "team_6_members": "Ομάδα: 6 μέλη",
+  "one_click_start": "Ένα κλικ εκκίνησης"
+   ,
+   "platformAdmin.totalTenants": "Σύνολο tenants",
+   "platformAdmin.activeInstances": "Ενεργές παρουσίες",
+   "platformAdmin.totalSpecialists": "Συνολικές θέσεις ειδικών",
+   "platformAdmin.searchPlaceholder": "Αναζήτηση ονόματος εταιρείας, ID ή κλάδου...",
+   "platformAdmin.noMatchingTenants": "Δεν βρέθηκαν αντίστοιχοι tenants",
+   "platformAdmin.editButton": "Επεξεργασία",
+   "platformAdmin.privilegePanelTitle": "Πίνακας διακυβέρνησης προνομίων tenant",
+   "platformAdmin.privilegePanelDesc": "Κάντε κλικ στο κουμπί 'Επεξεργασία' αριστερά για να τροποποιήσετε, να ενσωματώσετε ή να κλιμακώσετε τους AI ειδικούς, τα πρόσθετα και τις θέσεις του.",
+"platformAdmin.checkingAuth": "Έλεγχος συνεδρίας διαχειριστή σε εξέλιξη, παρακαλώ περιμένετε...",
+  "systemBase.swaggerIdle": "[Idle] Αναμονή για επικύρωση κλήσης API...",
+  "systemBase.swaggerCalling": "[Calling] POST {{endpoint}} χειραψία εγκαθίσταται. Εκτέλεση ελέγχου εξουσιοδότησης RBAC...",
+  "systemBase.swaggerSuccess": "[Checked] 200 OK\nResponse Payload:\n{\n  \"status\": \"success\",\n  \"requestId\": \"{{requestId}}\",\n  \"timestamp\": \"2026-06-02 23:53:50 UTC\",\n  \"data\": {\n    \"authChecked\": true,\n    \"userRole\": \"AI_AGENT_AUTONOMOUS\",\n    \"allocatedHost\": \"https://api.modaui.ai/api/v1\",\n    \"envPort\": 3000\n  }\n}",
+  "systemBase.backToConsole": "Επιστροφή στην κονσόλα συστήματος",
+  "systemBase.title": "Βασική στρώση συστήματος",
+  "systemBase.apiSecurity": "Επίπεδο ασφάλειας API: {{tier}}",
+  "systemBase.defaultPort": "Προεπιλεγμένη θύρα container: {{port}}",
+  "systemBase.tab.rbac": "RBAC",
+  "systemBase.tab.api": "API / Swagger",
+  "systemBase.tab.firewall": "WAF / Firewall",
+  "systemBase.tab.queue": "Ουρές",
+  "systemBase.tab.bucket": "Αποθήκευση",
+  "systemBase.rbacHeading": "Μήτρα δικαιωμάτων RBAC",
+  "systemBase.table.role": "Ρόλος",
+  "systemBase.table.scope": "Πεδίο",
+  "systemBase.table.createShop": "Δημιουργία καταστήματος",
+  "systemBase.table.deployAI": "Ανάπτυξη AI",
+  "systemBase.table.auditFinancials": "Οικονομικός Έλεγχος",
+  "systemBase.table.controls": "Έλεγχοι",
+  "systemBase.apiEndpointsHeading": "Endpoints API",
+  "systemBase.terminalResponseHeading": "Απάντηση Τερματικού",
+  "ecc": {
+    "selectEngineer": "Επιλέξτε μηχανικό ψηφιακής ακρίβειας:",
+    "controlPanelTitle": "ECC | {{name}} ({{role}}) Πίνακας ελέγχου",
+    "assignedTargetController": "Ανατεθείς ελεγκτής στόχου συστήματος",
+    "isolatedCognitiveShield": "Απομονωμένη γνωστική ασπίδα",
+    "securityKnobsTitle": "⚙️ Κουμπιά ασφάλειας ECC",
+    "budgetLimitLabel": "Όριο εξουσιοδότησης μεμονωμένης συναλλαγής",
+    "isolateSpaceLabel": "Φυσική απομόνωση sandbox",
+    "strictFilterLabel": "Αυστηρή παρεμπόδιση jailbreak",
+    "sandboxedOk": "SANDBOXED_OK",
+    "exposed": "EXPOSED",
+    "activeFilter": "ACTIVE_FILTER",
+    "bypassWarn": "BYPASS_WARN",
+    "specializedSkillsTitle": "🛠️ Διακόπτες εξειδικευμένων δεξιοτήτων",
+    "workspaceExplorerTitle": "📁 Εξερευνητής αρχείων sandbox",
+    "newVirtualFilePlaceholder": "π.χ.: trend_eval.py",
+    "createButton": "＋ Δημιουργία",
+    "editingSandbox": "Επεξεργασία sandbox: {{filename}}",
+    "cancel": "Ακύρωση",
+    "saveSandboxButton": "Γράψτε αρχείο και επανεκκινήστε το Sandbox",
+    "openCodeViewerTitle": "Άνοιγμα προβολέα κώδικα",
+    "purgeSandboxAssetTitle": "Κατάργηση πόρου sandbox",
+    "thoughtTraceHeading": "🧠 ${{agent}} Τερματικό παρακολούθησης σκέψης ανάγνωσης/εγγραφής:",
+    "skillOverridePlaceholder": "Προσαρμόστε την παράκαμψη οδηγιών...",
+    "skills": {
+      "layout_autumn": {
+        "name": "Autumn/Winter layout self-heal",
+        "prompt": "Match QuietLuxury old-money energy and auto-align coat renderings."
+      },
+      "palette_generator": {
+        "name": "Multidimensional palette trend analysis",
+        "prompt": "Render RGB and hex palettes instantly for high-weighted categories."
+      },
+      "spu_poster_synth": {
+        "name": "Multimodal product poster layout",
+        "prompt": "Integrate with Gemini-2.0 Imageify for poster assembly."
+      },
+      "factory_reorder": {
+        "name": "Flexible OEM reorder",
+        "prompt": "Trigger blanket orders when SPU stock falls below 20% threshold."
+      },
+      "lead_time_forecast": {
+        "name": "Upstream fabric lead time forecast",
+        "prompt": "Calculate in-transit material days using multi-dimensional regression."
+      },
+      "supplier_pricing_guard": {
+        "name": "Supplier cost fluctuation guard",
+        "prompt": "Lock raw material escalation caps and tier discount purchase orders."
+      },
+      "voucher_balancing": {
+        "name": "Voucher balancing optimization",
+        "prompt": "Reconcile weekly rebates to ensure single-order net margin > 20%."
+      },
+      "conversion_tuning": {
+        "name": "Conversion tuning autopilot",
+        "prompt": "Track funnel leak and micro-adjust pricing in real time."
+      },
+      "tax_hedge_recon": {
+        "name": "Cross-border tax hedge reconciliation",
+        "prompt": "Compare Stripe revenue with customs invoices to hedge FX settlement losses."
+      },
+      "refund_authenticator": {
+        "name": "VIP refund authenticator",
+        "prompt": "Intercept complaint causes and refund along the original path."
+      },
+      "reappointment_handler": {
+        "name": "Appointment rescheduling handler",
+        "prompt": "Trigger CRM refunds and book next-day VIP service in the early hours."
+      },
+      "antifraud_screener": {
+        "name": "Group-buy fraud screener",
+        "prompt": "Compare registration credit scores and block multi-account returns."
+      },
+      "ad_bidding_calculator": {
+        "name": "Social ad bidding calculator",
+        "prompt": "Track trending keywords on Xiaohongshu and TikTok."
+      },
+      "pinterest_textify": {
+        "name": "Multimodal text virality engine",
+        "prompt": "Generate commute-friendly, slimming-enhancement copy headlines."
+      },
+      "seo_dynamic_injector": {
+        "name": "SEO hot keyword injector",
+        "prompt": "Rewrite top-selling keywords into store product titles automatically."
+      },
+      "token_cost_ledger": {
+        "name": "Daily compute cost ledger",
+        "prompt": "Compare each agent’s consumption and generate daily token accounting."
+      },
+      "payouts_tax_calculator": {
+        "name": "Payouts tax calculator",
+        "prompt": "Aggregate Stripe tax invoices and offset cross-border fees."
+      }
+    },
+    "log": {
+      "updateSecurity": "[Ασφάλεια ECC] Ενημερώθηκε η παράμετρος ασφαλείας {{agentName}} [{{field}}] σε {{value}}.",
+      "toggleSkill": "[Διακόπτης δεξιότητας ECC] Η δεξιότητα '{{skillName}}' του {{agentName}} είναι τώρα {{status}}.",
+      "enabled": "ενεργοποιημένη",
+      "disabled": "απενεργοποιημένη",
+      "createdVirtualFile": "[Sandbox ECC] Το εικονικό αρχείο '{{fileName}}' δημιουργήθηκε για {{agentName}}.",
+      "deletedVirtualFile": "[Sandbox ECC] Το εικονικό αρχείο '{{fileName}}' διαγράφηκε για {{agentName}}.",
+      "savedVirtualFile": "[Sandbox ECC] Το εικονικό αρχείο '{{fileName}}' αποθηκεύτηκε για {{agentName}}."
+    }
+  }
+}

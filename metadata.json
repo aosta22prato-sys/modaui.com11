@@ -1,0 +1,8 @@
+{
+  "name": "Remix: MODAUI",
+  "description": "An AI-powered ecommerce and operations platform for creating and running an autonomous business with digital employees.对，如果你的要求是**完全不能混**，那就要明确写给开发：\n\n严重要求（必须执行）\n\n6个行业必须完全独立。\n\n服装公司\n餐饮公司\n美容公司\n健身公司\n珠宝公司\n家居公司\n\n禁止共享行业模板。\n\n禁止共享行业数据。\n\n禁止共享行业商品。\n\n禁止共享行业分类。\n\n禁止共享行业知识库。\n\n禁止共享行业AI团队。\n\n禁止共享行业默认内容。\n\n用户选择服装公司后：\n\n只能加载服装公司模板。\n\n只能加载服装公司商品。\n\n只能加载服装公司分类。\n\n只能加载服装公司AI团队。\n\n只能加载服装公司知识库。\n\n后台、前台、店面全部保持服装行业。\n\n绝对不能出现：\n\n餐饮商品\n\n餐饮分类\n\n餐饮模板\n\n餐饮AI员工\n\n餐饮知识库\n\n同理：\n\n餐饮公司只能显示餐饮内容。\n\n美容公司只能显示美容内容。\n\n健身公司只能显示健身内容。\n\n珠宝公司只能显示珠宝内容。\n\n家居公司只能显示家居内容。\n\n系统架构必须改为：\n\nIndustry\n├── Fashion\n├── Food\n├── Beauty\n├── Fitness\n├── Jewelry\n└── Home\n\n每个行业拥有：\n\n* 独立模板\n* 独立商品结构\n* 独立分类结构\n* 独立AI团队\n* 独立知识库\n* 独立默认数据\n\n任何行业数据禁止互相引用。\n\n任何行业模板禁止互相混用。\n\n必须做到行业级隔离。\n\n如果你的目标是“用户一进入就感觉这是一个真实的服装公司、真实的餐饮公司”，那就应该按上面这种行业级隔离来做，而不是一个模板套所有行业。\n",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

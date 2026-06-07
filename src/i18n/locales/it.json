@@ -1,0 +1,205 @@
+{
+  "back_home": "Torna alla home",
+  "choose_industry": "Scegli un settore",
+  "choose_direction": "Seleziona la direzione aziendale",
+  "confirm_and_login": "Conferma e accedi",
+  "official_home": "Home ufficiale",
+  "user_login": "Accesso utente",
+  "decision_config": "Configurazione decisionale",
+  "incubator": "Incubatore",
+  "merchant_dashboard": "Pannello commerciante",
+  "shop": "Vetrina",
+  "expert_teams": "Team di esperti",
+  "execution_control": "Controllo esecuzione",
+  "knowledge_base": "Base di conoscenza",
+  "super_control": "Admin piattaforma",
+
+  "google_login_failed": "Accesso Google non riuscito, riprova in una nuova finestra",
+  "unauthorized_domain": "[Restrizione di autorizzazione dominio] Il dominio {{hostname}} non è nella whitelist Firebase. Puoi registrarti o accedere con email.",
+  "enter_username": "Inserisci un nome utente o account per continuare.",
+  "sso_success": "SSO collegato con successo. Provisioning account completato.",
+  "sso_registration_error": "Registrazione SSO non riuscita, aggiorna e riprova.",
+  "enter_email": "Inserisci la tua email per continuare",
+  "password_min_length": "La password deve contenere almeno 6 caratteri",
+  "signup_success": "Registrazione completata! Caricamento configurazione azienda digitale.",
+  "auth_service_error": "Errore di comunicazione del servizio di autenticazione, riprova",
+  "wrong_password": "La password non corrisponde ai nostri record, controlla.",
+  "email_in_use": "Questa email è già in uso. Passa alla modalità 'account esistente'.",
+  "user_not_found": "Account non trovato. Passa alla modalità 'crea account'.",
+
+  "start_free_trial": "Inizia la prova gratuita",
+  "free_trial_offer": "Prova gratuita di 3 giorni, poi solo ¥1/mese",
+  "start_trial_with": "Inizia la prova con {{provider}}",
+  "wechat_nickname": "Nickname / ID WeChat",
+  "tiktok_username": "Username TikTok (Username)",
+  "github_username": "Username GitHub",
+  "sso_username_placeholder": "Inserisci il tuo username {{provider}}",
+  "associate_phone_or_email_label": "Numero di telefono o email associata",
+  "associate_phone_or_email_placeholder": "Numero di telefono o email usata per la fatturazione",
+  "authorize_and_create_company": "Autorizza e continua per creare l'azienda",
+  "email_label": "Email",
+  "no_account_register": "Nessun account? Registrati ora",
+  "have_account_login": "Hai un account? Accedi",
+  "password_placeholder": "Inserisci una password sicura (min 6 caratteri)",
+  "create_account_now_free": "Crea un nuovo account gratis ora",
+  "verify_and_signin": "Verifica e accedi",
+  "continue_with_email": "Continua con email",
+  "or": "o",
+  "continue_with_google": "Continua con Google",
+  "continue_with_wechat": "Continua con WeChat",
+  "continue_with_tiktok": "Continua con TikTok",
+  "continue_with_github": "Continua con GitHub",
+  "cancel_and_back_home": "Annulla e torna alla home"
+  ,
+  "platform_admin_center": "Centro di controllo piattaforma",
+  "control_panel": "Pannello di controllo",
+  "create_company": "Crea azienda",
+  "create_your_company": "Crea la tua azienda",
+  "ai_team_ready": "Team AI pronti a operare",
+  "start_business_now": "Inizia ora le operazioni aziendali",
+  "create_my_company": "Crea la mia azienda (dashboard commerciante)",
+  "modaui_platform_center": "Centro controllo piattaforma MODAUI",
+  "design": "Design",
+  "procurement": "Approvvigionamento",
+  "operations": "Operazioni",
+  "marketing": "Marketing",
+  "finance": "Finanza",
+  "customer_service": "Servizio Clienti",
+  "team_6_members": "Team: 6 membri",
+  "one_click_start": "Avvio con un clic"
+  ,
+  "platformAdmin.totalTenants": "Totale tenant",
+  "platformAdmin.activeInstances": "Istanze attive",
+  "platformAdmin.totalSpecialists": "Posti specialisti totali",
+  "platformAdmin.searchPlaceholder": "Cerca nome azienda, ID o settore...",
+  "platformAdmin.noMatchingTenants": "Nessun tenant corrispondente trovato",
+  "platformAdmin.editButton": "Modifica",
+  "platformAdmin.privilegePanelTitle": "Pannello di governance dei privilegi tenant",
+  "platformAdmin.privilegePanelDesc": "Clicca il pulsante 'Modifica' a sinistra per modificare, onboarding o scalare i suoi specialisti AI, plugin e posti.",
+"platformAdmin.checkingAuth": "Verifica della sessione admin in corso, attendere...",
+  "systemBase.swaggerIdle": "[Idle] In attesa della validazione della chiamata API...",
+  "systemBase.swaggerCalling": "[Calling] POST {{endpoint}} handshake stabilito. Esecuzione controllo auth RBAC...",
+  "systemBase.swaggerSuccess": "[Checked] 200 OK\nResponse Payload:\n{\n  \"status\": \"success\",\n  \"requestId\": \"{{requestId}}\",\n  \"timestamp\": \"2026-06-02 23:53:50 UTC\",\n  \"data\": {\n    \"authChecked\": true,\n    \"userRole\": \"AI_AGENT_AUTONOMOUS\",\n    \"allocatedHost\": \"https://api.modaui.ai/api/v1\",\n    \"envPort\": 3000\n  }\n}",
+  "systemBase.backToConsole": "Torna alla console di sistema",
+  "systemBase.title": "Strato base del sistema",
+  "systemBase.apiSecurity": "Livello sicurezza API: {{tier}}",
+  "systemBase.defaultPort": "Porta container predefinita: {{port}}",
+  "systemBase.tab.rbac": "RBAC",
+  "systemBase.tab.api": "API / Swagger",
+  "systemBase.tab.firewall": "WAF / Firewall",
+  "systemBase.tab.queue": "Code",
+  "systemBase.tab.bucket": "Storage Buckets",
+  "systemBase.rbacHeading": "Matrice permessi RBAC",
+  "systemBase.table.role": "Ruolo",
+  "systemBase.table.scope": "Ambito",
+  "systemBase.table.createShop": "Crea negozio",
+  "systemBase.table.deployAI": "Distribuisci AI",
+  "systemBase.table.auditFinancials": "Verifica finanziaria",
+  "systemBase.table.controls": "Controlli",
+  "systemBase.apiEndpointsHeading": "Endpoint API",
+  "systemBase.terminalResponseHeading": "Risposta Terminal",
+  "ecc": {
+    "selectEngineer": "Seleziona ingegnere digitale di precisione:",
+    "controlPanelTitle": "ECC | {{name}} ({{role}}) Pannello di controllo",
+    "assignedTargetController": "Assegnato controllore di sistema target",
+    "isolatedCognitiveShield": "Scudo cognitivo isolato",
+    "securityKnobsTitle": "⚙️ Manopole di sicurezza ECC",
+    "budgetLimitLabel": "Limite autorizzazione transazione singola",
+    "isolateSpaceLabel": "Isolamento sandbox fisico",
+    "strictFilterLabel": "Intercettazione jailbreak rigorosa",
+    "sandboxedOk": "SANDBOXED_OK",
+    "exposed": "EXPOSED",
+    "activeFilter": "ACTIVE_FILTER",
+    "bypassWarn": "BYPASS_WARN",
+    "specializedSkillsTitle": "🛠️ Interruttori skill specializzate",
+    "workspaceExplorerTitle": "📁 Esploratore file sandbox",
+    "newVirtualFilePlaceholder": "es.: trend_eval.py",
+    "createButton": "＋ Crea",
+    "editingSandbox": "Modifica sandbox: {{filename}}",
+    "cancel": "Annulla",
+    "saveSandboxButton": "Scrivi file e riavvia Sandbox",
+    "openCodeViewerTitle": "Apri visualizzatore codice",
+    "purgeSandboxAssetTitle": "Pulisci asset sandbox",
+    "thoughtTraceHeading": "🧠 ${{agent}} Terminale di traccia pensiero lettura/scrittura:",
+    "skillOverridePlaceholder": "Personalizza il sovrascrittura delle istruzioni...",
+    "skills": {
+      "layout_autumn": {
+        "name": "Autumn/Winter layout self-heal",
+        "prompt": "Match QuietLuxury old-money energy and auto-align coat renderings."
+      },
+      "palette_generator": {
+        "name": "Multidimensional palette trend analysis",
+        "prompt": "Render RGB and hex palettes instantly for high-weighted categories."
+      },
+      "spu_poster_synth": {
+        "name": "Multimodal product poster layout",
+        "prompt": "Integrate with Gemini-2.0 Imageify for poster assembly."
+      },
+      "factory_reorder": {
+        "name": "Flexible OEM reorder",
+        "prompt": "Trigger blanket orders when SPU stock falls below 20% threshold."
+      },
+      "lead_time_forecast": {
+        "name": "Upstream fabric lead time forecast",
+        "prompt": "Calculate in-transit material days using multi-dimensional regression."
+      },
+      "supplier_pricing_guard": {
+        "name": "Supplier cost fluctuation guard",
+        "prompt": "Lock raw material escalation caps and tier discount purchase orders."
+      },
+      "voucher_balancing": {
+        "name": "Voucher balancing optimization",
+        "prompt": "Reconcile weekly rebates to ensure single-order net margin > 20%."
+      },
+      "conversion_tuning": {
+        "name": "Conversion tuning autopilot",
+        "prompt": "Track funnel leak and micro-adjust pricing in real time."
+      },
+      "tax_hedge_recon": {
+        "name": "Cross-border tax hedge reconciliation",
+        "prompt": "Compare Stripe revenue with customs invoices to hedge FX settlement losses."
+      },
+      "refund_authenticator": {
+        "name": "VIP refund authenticator",
+        "prompt": "Intercept complaint causes and refund along the original path."
+      },
+      "reappointment_handler": {
+        "name": "Appointment rescheduling handler",
+        "prompt": "Trigger CRM refunds and book next-day VIP service in the early hours."
+      },
+      "antifraud_screener": {
+        "name": "Group-buy fraud screener",
+        "prompt": "Compare registration credit scores and block multi-account returns."
+      },
+      "ad_bidding_calculator": {
+        "name": "Social ad bidding calculator",
+        "prompt": "Track trending keywords on Xiaohongshu and TikTok."
+      },
+      "pinterest_textify": {
+        "name": "Multimodal text virality engine",
+        "prompt": "Generate commute-friendly, slimming-enhancement copy headlines."
+      },
+      "seo_dynamic_injector": {
+        "name": "SEO hot keyword injector",
+        "prompt": "Rewrite top-selling keywords into store product titles automatically."
+      },
+      "token_cost_ledger": {
+        "name": "Daily compute cost ledger",
+        "prompt": "Compare each agent’s consumption and generate daily token accounting."
+      },
+      "payouts_tax_calculator": {
+        "name": "Payouts tax calculator",
+        "prompt": "Aggregate Stripe tax invoices and offset cross-border fees."
+      }
+    },
+    "log": {
+      "updateSecurity": "[Sicurezza ECC] Parametro di sicurezza {{agentName}} [{{field}}] aggiornato a {{value}}.",
+      "toggleSkill": "[Interruttore skill ECC] La skill '{{skillName}}' di {{agentName}} è ora {{status}}.",
+      "enabled": "attivata",
+      "disabled": "disattivata",
+      "createdVirtualFile": "[Sandbox ECC] File virtuale '{{fileName}}' creato per {{agentName}}.",
+      "deletedVirtualFile": "[Sandbox ECC] File virtuale '{{fileName}}' eliminato per {{agentName}}.",
+      "savedVirtualFile": "[Sandbox ECC] File virtuale '{{fileName}}' salvato per {{agentName}}."
+    }
+  }
+}

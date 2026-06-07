@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb6b541e-f57b-49e1-bab6-825485f9800e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modaui.com.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONNECTIONS_DOC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEVELOPMENT_ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LARAVEL_BOTBLE_MAPPING_API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/merchant/components/admin/storefront-view.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/installer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/modadb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/modadb.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/KERNEL_SSOT_AUDIT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/MIGRATION_CATEGORY_LIST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/MODAUI_MIGRATION_INVENTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/PRODUCT_SSOT_AUDIT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UNIFIED_MODAUI_ROADMAP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/VERIFICATION_MATRIX.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/adapters/ADAPTER_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/SALE_DOMAIN_AUDIT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/modaui-comprehensive-audit-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/task-01-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/task-02-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/task-03-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/task-04-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/audit/task-05-report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/lva_api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/modaui-enterprise-operating-kernel-phase3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-customer-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-finance-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-inventory-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-knowledge-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-module-status.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-product-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-purchase-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/phase3-sales-center-migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase-applet-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase-blueprint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firestore.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modaui_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.user.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/firebase-vendor-DkQKGAW7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/gateway/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/gateway/paystack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/gateway/stripe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/index-APmhYLSN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/index-BYlYlBDg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/vendor-DkT_Vbiy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/lva_smoketest.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/lva_smoketest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/seed_stores.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/verify_finance_kernel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/verify_inventory_kernel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/verify_product_ssot.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/catering_chef_kai_1780453688255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/catering_ops_lulu_1780453703816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/fashion_buyer_barton_1780453671012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/fashion_designer_aria_1780453654705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AIRuntimeView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AITeamsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppStoreView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AriaFashionStudio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChannelsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomerStorefrontPreview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/D3FinancialStreamChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeveloperConsoleView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DiscountsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ECCAgentConsole.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GoogleLoginModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HyperMemEngine.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/KnowledgeBaseView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LandingPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LangChainValidator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LangGraphCanvas.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LanguageSwitcher.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MarkItDownHub.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MerchantDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MerchantSettingsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OnboardingScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PlatformAdminView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RoleManagementPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StorefrontView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SystemBaseView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UnifiedArchitectureBridge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserSettingsView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/AppStoreManagement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/AuthPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/CustomerSupport.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/InfrastructureServices.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/LVAView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/OperationsDevOps.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/PlatformAnalytics.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/PlatformFinance.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/StoreCountCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/SubscriptionBilling.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/SystemSettings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/TenantManagement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/platform-admin/ThemeStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/PageHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/SearchInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/StatsCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales/el.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/locales/zh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/customer-center/CustomerCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/customer-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/finance/AIFinanceManagerView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/finance/CollectionLinkView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/finance/FinanceHubView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/inventory-center/InventoryCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/inventory-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/inventory-center/inventoryDomain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/payment/PaymentGatewayView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/payment/payment-paypal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/payment/payment-wechat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/pos-center/POSCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/pos-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/ProductCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/batches/BatchForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/batches/BatchPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/brands/BrandForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/brands/BrandPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/collections/CollectionForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/collections/CollectionPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/images/ImageForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/images/ImagePanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/products/ProductForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/variants/VariantForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/product-center/variants/VariantPanel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/purchase-center/PurchaseCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/purchase-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/report-center/ReportCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/report-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales-center/SalesCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sales-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/supplier-center/SupplierCenterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/supplier-center/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/services/PurchaseService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/services/SalesService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/app-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/campaigns.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/langchain.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ollama.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/openai.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/rbac.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/theme-builder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/inventory.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/modaui.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/www/wwwroot/modaui.com" value="3ElifDdqhv6f0byz3V4UMIkiB14" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="197" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000546665487061" />
+      <entry key="S2" value="1.5033845633733134" />
+      <entry key="S5" value="3.1356276769459" />
+      <entry key="S10" value="4.543075440988137" />
+      <entry key="S30" value="6.020301020082372" />
+      <entry key="S60" value="6.486346033695744" />
+      <entry key="M2" value="6.736896158338668" />
+      <entry key="M5" value="6.893208038482892" />
+      <entry key="M10" value="6.946341850247904" />
+      <entry key="M15" value="6.964169357858816" />
+      <entry key="M30" value="6.982055336788181" />
+      <entry key="H1" value="6.991020319515047" />
+      <entry key="H2" value="6.9955083208668585" />
+      <entry key="H4" value="6.9977537005017165" />
+      <entry key="D1" value="6.9996255528531295" />
+      <entry key="W1" value="6.999946505985387" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8766057213160351" />
+      <entry key="MS500" value="0.9745450780299909" />
+      <entry key="S2" value="1.494834438334304" />
+      <entry key="S5" value="3.1274831409703503" />
+      <entry key="S10" value="4.535998856044138" />
+      <entry key="S30" value="6.016649449681263" />
+      <entry key="S60" value="6.484294763629088" />
+      <entry key="M2" value="6.73580798153218" />
+      <entry key="M5" value="6.892756897070131" />
+      <entry key="M10" value="6.946113559541546" />
+      <entry key="M15" value="6.9640165539463785" />
+      <entry key="M30" value="6.981978628350504" />
+      <entry key="H1" value="6.990981888407135" />
+      <entry key="H2" value="6.995489086056953" />
+      <entry key="H4" value="6.997744078278558" />
+      <entry key="D1" value="6.999623948479717" />
+      <entry key="W1" value="6.999946276772784" />
+    </decayedShown>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3ElifDdqhv6f0byz3V4UMIkiB14" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/www/wwwroot/modaui.com",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/www/wwwroot/modaui.com/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cb6b541e-f57b-49e1-bab6-825485f9800e" name="更改" comment="" />
+      <created>1780759661176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780759661176</updated>
+      <workItem from="1780759663677" duration="2887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

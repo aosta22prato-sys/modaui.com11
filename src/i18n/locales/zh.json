@@ -1,0 +1,205 @@
+{
+  "back_home": "返回首页",
+  "choose_industry": "选择行业",
+  "choose_direction": "选择企业方向",
+  "confirm_and_login": "确认并登录",
+  "official_home": "官方首页",
+  "user_login": "用户登录",
+  "decision_config": "决策配置",
+  "incubator": "智体孵化",
+  "merchant_dashboard": "商家管理",
+  "shop": "店面交易",
+  "expert_teams": "专家小队",
+  "execution_control": "执行控制",
+  "knowledge_base": "知识底座",
+  "super_control": "超级控制",
+
+  "google_login_failed": "Google 登录失败，请在新窗口中重试",
+  "unauthorized_domain": "【网域授权安全限制】域名 {{hostname}} 暂未添加到 Firebase 授权白名单中。您可以使用电子邮箱注册与登录。",
+  "enter_username": "请输入用户名或账号名以继续。",
+  "sso_success": "授权对接成功！已在安全信道内完成账户准入契合。",
+  "sso_registration_error": "三方账户登记同步异常，请刷新重试。",
+  "enter_email": "请输入电子邮箱以继续",
+  "password_min_length": "密码必须至少有 6 位字符",
+  "signup_success": "注册成功！即将载入数字企业配置。",
+  "auth_service_error": "认证服务通讯异常，请核对后重试",
+  "wrong_password": "密码与账户记录不匹配，请核对。",
+  "email_in_use": "该邮箱已被占用，请切换到“已有账户登录”模式。",
+  "user_not_found": "未找到该账户，请切换为“立即注册数字账户”模式。",
+
+  "start_free_trial": "开始免费试用",
+  "free_trial_offer": "免费试用3天，之后仅需 1 元/月",
+  "start_trial_with": "通过 {{provider}} 开始试用",
+  "wechat_nickname": "微信昵称 / 微信号",
+  "tiktok_username": "TikTok 账号（用户名）",
+  "github_username": "GitHub 账号名",
+  "sso_username_placeholder": "请输入您的 {{provider}} 用户名或账号",
+  "associate_phone_or_email_label": "关联手机号或常用邮箱",
+  "associate_phone_or_email_placeholder": "关联手机号或常用邮箱以对接账单",
+  "authorize_and_create_company": "授权并继续创建公司",
+  "email_label": "电子邮件",
+  "no_account_register": "没有账号？立即注册",
+  "have_account_login": "已有账号？立即登录",
+  "password_placeholder": "请输入至少6位安全密码",
+  "create_account_now_free": "立即免费创建新账号",
+  "verify_and_signin": "验证并登录",
+  "continue_with_email": "继续通过电子邮箱",
+  "or": "或者",
+  "continue_with_google": "继续使用 Google",
+  "continue_with_wechat": "继续使用 微信",
+  "continue_with_tiktok": "继续使用 抖音/TikTok",
+  "continue_with_github": "继续使用 GitHub",
+  "cancel_and_back_home": "取消并返回首页"
+  ,
+  "platform_admin_center": "平台控制中心",
+  "control_panel": "控制面板",
+  "create_company": "创建公司",
+  "create_your_company": "创建您的公司",
+  "ai_team_ready": "AI 团队立即上岗",
+  "start_business_now": "即刻开始企业经营",
+  "create_my_company": "创建我的公司 (商家后台)",
+  "modaui_platform_center": "MODAUI 平台控制中心",
+  "design": "设计",
+  "procurement": "采购",
+  "operations": "运营",
+  "marketing": "营销",
+  "finance": "财务",
+  "customer_service": "客服",
+  "team_6_members": "团队 6 名",
+  "one_click_start": "一键启动"
+  ,
+  "platformAdmin.totalTenants": "租户商社总计",
+  "platformAdmin.activeInstances": "活跃运行节点",
+  "platformAdmin.totalSpecialists": "总计激活智体工席",
+  "platformAdmin.searchPlaceholder": "检索企业名、ID or 行业...",
+  "platformAdmin.noMatchingTenants": "暂未找到相匹配的实例节点",
+  "platformAdmin.editButton": "授权微调",
+  "platformAdmin.privilegePanelTitle": "企业租户特权授权治理面板",
+  "platformAdmin.privilegePanelDesc": "请在左侧点击任一公司的“授权微调”按钮，即可在线修改、收容、扩容其专属 AI Specialist、扩展插件及运行工席配额。",
+"platformAdmin.checkingAuth": "正在验证管理员会话，请稍候...",
+  "systemBase.swaggerIdle": "【空闲中】等待执行 API 调用请求校验测试...",
+  "systemBase.swaggerCalling": "【调用中】POST {{endpoint}} 对接握手建立。进行 RBAC 鉴权比对中...",
+  "systemBase.swaggerSuccess": "【校验完成】200 OK\nResponse Payload:\n{\n  \"status\": \"success\",\n  \"requestId\": \"{{requestId}}\",\n  \"timestamp\": \"2026-06-02 23:53:50 UTC\",\n  \"data\": {\n    \"authChecked\": true,\n    \"userRole\": \"AI_AGENT_AUTONOMOUS\",\n    \"allocatedHost\": \"https://api.modaui.ai/api/v1\",\n    \"envPort\": 3000\n  }\n}",
+  "systemBase.backToConsole": "返回系统控制台",
+  "systemBase.title": "系统基础层",
+  "systemBase.apiSecurity": "API安全级别: {{tier}}",
+  "systemBase.defaultPort": "默认容器口: {{port}}",
+  "systemBase.tab.rbac": "用户与RBAC权限组 (RBAC)",
+  "systemBase.tab.api": "API 网关联动调试 (OpenAPI / Swagger)",
+  "systemBase.tab.firewall": "安全策略与WAF防刷 (WAF)",
+  "systemBase.tab.queue": "Websocket 消息分发队列 (Queues)",
+  "systemBase.tab.bucket": "文件桶模拟浏览器 (Storage File Bucket)",
+  "systemBase.rbacHeading": "RBAC 核心权限矩阵控制表",
+  "systemBase.table.role": "基础系统角色名",
+  "systemBase.table.scope": "默认作用域",
+  "systemBase.table.createShop": "创建店铺",
+  "systemBase.table.deployAI": "智体调用部署",
+  "systemBase.table.auditFinancials": "财务对账审计",
+  "systemBase.table.controls": "控制红线",
+  "systemBase.apiEndpointsHeading": "API 路由端点",
+  "systemBase.terminalResponseHeading": "响应测试终端 (Terminal Response)",
+  "ecc": {
+    "selectEngineer": "选择特精数字工程师:",
+    "controlPanelTitle": "ECC | {{name}} ({{role}}) 控制面",
+    "assignedTargetController": "Assigned Target System Controller",
+    "isolatedCognitiveShield": "隔离认知保护机制",
+    "securityKnobsTitle": "⚙️ 智体特许契约安全控制",
+    "budgetLimitLabel": "单笔财务划拨上限",
+    "isolateSpaceLabel": "物理沙箱写隔离",
+    "strictFilterLabel": "强制系统越狱拦截",
+    "sandboxedOk": "SANDBOXED_OK",
+    "exposed": "EXPOSED",
+    "activeFilter": "ACTIVE_FILTER",
+    "bypassWarn": "BYPASS_WARN",
+    "specializedSkillsTitle": "🛠️ 核心微服务技能配置",
+    "workspaceExplorerTitle": "📁 物理沙盒文件空间",
+    "newVirtualFilePlaceholder": "如: trend_eval.py",
+    "createButton": "＋ 创建",
+    "editingSandbox": "正在编辑沙盒: {{filename}}",
+    "cancel": "取消",
+    "saveSandboxButton": "写入文件并重启 Sandbox",
+    "openCodeViewerTitle": "打开代码查看器",
+    "purgeSandboxAssetTitle": "清除沙盒资产",
+    "thoughtTraceHeading": "🧠 ${{agent}} 系统读写思考追踪终端:",
+    "skillOverridePlaceholder": "自定义指令覆盖...",
+    "skills": {
+      "layout_autumn": {
+        "name": "秋冬陈列版型自愈",
+        "prompt": "匹配 QuietLuxury 老钱风调性，自动对齐大衣渲染。"
+      },
+      "palette_generator": {
+        "name": "多维色泽趋势分析",
+        "prompt": "一秒渲染 RGB 及 Hex 调色板，匹配高加权品类。"
+      },
+      "spu_poster_synth": {
+        "name": "多模态商品海报排版",
+        "prompt": "对接 Gemini-2.0 Imageify 拼装海报。"
+      },
+      "factory_reorder": {
+        "name": "代工厂柔性自动追加",
+        "prompt": "当 SPU 库存扣率触超阈值低于 20% 即刻一网打单。"
+      },
+      "lead_time_forecast": {
+        "name": "上游面料交付周期测算",
+        "prompt": "多维度回归分析测算原材料在途天数。"
+      },
+      "supplier_pricing_guard": {
+        "name": "面辅料波动定价防线",
+        "prompt": "锁定原料涨幅限价，阶梯减扣采购订单。"
+      },
+      "voucher_balancing": {
+        "name": "霸王满减裂变精算",
+        "prompt": "精合算周度返利，确保单笔纯利门槛>20%。"
+      },
+      "conversion_tuning": {
+        "name": "转化杠杆自校准调节",
+        "prompt": "跟踪流量漏斗，秒秒差微调营销定价出格。"
+      },
+      "tax_hedge_recon": {
+        "name": "跨境关税及对账套利",
+        "prompt": "对比 Stripe 进账流水与报关单，对冲外卡结汇损耗。"
+      },
+      "refund_authenticator": {
+        "name": "金卡 VIP 无感全赔自愈",
+        "prompt": "拦截客诉差评起因，原路径退还赔款。"
+      },
+      "reappointment_handler": {
+        "name": "错峰原店总监预约排班",
+        "prompt": "触发 CRM 退款并在凌晨预约明日总监洗发。"
+      },
+      "antifraud_screener": {
+        "name": "拼单恶意薅羊毛反欺诈",
+        "prompt": "比对注册信用评分，拦截多账户退单挤压行为。"
+      },
+      "ad_bidding_calculator": {
+        "name": "社交热门爆词竞拍器",
+        "prompt": "追踪小红书、TikTok 飙升关键词。"
+      },
+      "pinterest_textify": {
+        "name": "流媒体多模态文本裂变器",
+        "prompt": "生成通勤通勤、瘦腿美化标题文案。"
+      },
+      "seo_dynamic_injector": {
+        "name": "直通车 SEO 热词动态植入",
+        "prompt": "自动化将热销词重写入商铺商品首标题。"
+      },
+      "token_cost_ledger": {
+        "name": "每日大盘算力额度审计",
+        "prompt": "对比各智体耗费，生成 Token 日清账册。"
+      },
+      "payouts_tax_calculator": {
+        "name": "商铺 Stripe 出账抵扣套利",
+        "prompt": "自动累计税单申报，规避跨境两成耗。"
+      }
+    },
+    "log": {
+      "updateSecurity": "[ECC 安全调配] 已将 {{agentName}} 的安全参数 [{{field}}] 更新为 {{value}}。",
+      "toggleSkill": "[ECC 技能开关] {{agentName}} 的技能 '{{skillName}}' 已变更为 {{status}}。",
+      "enabled": "🟢 激活",
+      "disabled": "🔴 封禁",
+      "createdVirtualFile": "[ECC 砂盒] 为 {{agentName}} 创建了虚拟文件 '{{fileName}}'。",
+      "deletedVirtualFile": "[ECC 砂盒] 为 {{agentName}} 删除了虚拟文件 '{{fileName}}'。",
+      "savedVirtualFile": "[ECC 砂盒] 已为 {{agentName}} 保存虚拟文件 '{{fileName}}'。"
+    }
+  }
+}

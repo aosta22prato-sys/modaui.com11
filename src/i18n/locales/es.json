@@ -1,0 +1,205 @@
+{
+  "back_home": "Volver al inicio",
+  "choose_industry": "Elige una industria",
+  "choose_direction": "Selecciona la dirección del negocio",
+  "confirm_and_login": "Confirmar e iniciar sesión",
+  "official_home": "Página oficial",
+  "user_login": "Inicio de sesión",
+  "decision_config": "Configuración de decisiones",
+  "incubator": "Incubadora",
+  "merchant_dashboard": "Panel del comerciante",
+  "shop": "Tienda",
+  "expert_teams": "Equipos de expertos",
+  "execution_control": "Control de ejecución",
+  "knowledge_base": "Base de conocimiento",
+  "super_control": "Administración de la plataforma",
+
+  "google_login_failed": "Error de inicio de sesión de Google, intenta abrir en una nueva ventana",
+  "unauthorized_domain": "[Restricción de autorización de dominio] El dominio {{hostname}} no está en la whitelist de Firebase. Puedes registrarte o iniciar sesión con correo electrónico.",
+  "enter_username": "Por favor ingresa un nombre de usuario o cuenta para continuar.",
+  "sso_success": "SSO conectado con éxito. Provisionamiento de cuenta completado.",
+  "sso_registration_error": "Registro SSO fallido, actualiza e intenta de nuevo.",
+  "enter_email": "Por favor ingresa tu correo para continuar",
+  "password_min_length": "La contraseña debe tener al menos 6 caracteres",
+  "signup_success": "Registro exitoso! Cargando la configuración de la empresa digital.",
+  "auth_service_error": "Error de comunicación con el servicio de autenticación, intenta de nuevo",
+  "wrong_password": "La contraseña no coincide con nuestros registros, por favor verifica.",
+  "email_in_use": "Este correo ya está en uso. Cambia al modo 'cuenta existente'.",
+  "user_not_found": "Cuenta no encontrada. Cambia al modo 'crear cuenta'.",
+
+  "start_free_trial": "Iniciar prueba gratuita",
+  "free_trial_offer": "Prueba gratuita de 3 días, luego solo ¥1/mes",
+  "start_trial_with": "Iniciar prueba con {{provider}}",
+  "wechat_nickname": "Nick / ID de WeChat",
+  "tiktok_username": "Usuario de TikTok (Username)",
+  "github_username": "Usuario de GitHub",
+  "sso_username_placeholder": "Ingresa tu usuario {{provider}}",
+  "associate_phone_or_email_label": "Número de teléfono o correo asociado",
+  "associate_phone_or_email_placeholder": "Número de teléfono o correo usado para facturación",
+  "authorize_and_create_company": "Autorizar y continuar para crear la empresa",
+  "email_label": "Correo electrónico",
+  "no_account_register": "¿No tienes cuenta? Regístrate ahora",
+  "have_account_login": "¿Tienes cuenta? Inicia sesión",
+  "password_placeholder": "Ingresa una contraseña segura (mín 6 caracteres)",
+  "create_account_now_free": "Crear una nueva cuenta gratis ahora",
+  "verify_and_signin": "Verificar e iniciar sesión",
+  "continue_with_email": "Continuar con correo",
+  "or": "o",
+  "continue_with_google": "Continuar con Google",
+  "continue_with_wechat": "Continuar con WeChat",
+  "continue_with_tiktok": "Continuar con TikTok",
+  "continue_with_github": "Continuar con GitHub",
+  "cancel_and_back_home": "Cancelar y volver al inicio"
+  ,
+  "platform_admin_center": "Centro de control de la plataforma",
+  "control_panel": "Panel de control",
+  "create_company": "Crear empresa",
+  "create_your_company": "Crea tu empresa",
+  "ai_team_ready": "Equipos de IA listos para desplegar",
+  "start_business_now": "Comienza a operar tu negocio ahora",
+  "create_my_company": "Crear mi empresa (panel del comerciante)",
+  "modaui_platform_center": "Centro de control de plataforma MODAUI",
+  "design": "Diseño",
+  "procurement": "Compras",
+  "operations": "Operaciones",
+  "marketing": "Marketing",
+  "finance": "Finanzas",
+  "customer_service": "Atención al cliente",
+  "team_6_members": "Equipo: 6 miembros",
+  "one_click_start": "Inicio con un clic"
+  ,
+  "platformAdmin.totalTenants": "Total de inquilinos",
+  "platformAdmin.activeInstances": "Instancias activas",
+  "platformAdmin.totalSpecialists": "Asientos totales de especialistas",
+  "platformAdmin.searchPlaceholder": "Buscar nombre de empresa, ID o industria...",
+  "platformAdmin.noMatchingTenants": "No se encontraron inquilinos coincidentes",
+  "platformAdmin.editButton": "Editar",
+  "platformAdmin.privilegePanelTitle": "Panel de gobernanza de privilegios de inquilinos",
+  "platformAdmin.privilegePanelDesc": "Haga clic en el botón 'Editar' de la izquierda para modificar, incorporar o escalar sus especialistas de IA, complementos y asientos.",
+"platformAdmin.checkingAuth": "Verificando sesión de administrador, por favor espere...",
+  "systemBase.swaggerIdle": "[Idle] Esperando validación de llamada API...",
+  "systemBase.swaggerCalling": "[Calling] POST {{endpoint}} handshake establecido. Realizando comprobación de autenticación RBAC...",
+  "systemBase.swaggerSuccess": "[Checked] 200 OK\nResponse Payload:\n{\n  \"status\": \"success\",\n  \"requestId\": \"{{requestId}}\",\n  \"timestamp\": \"2026-06-02 23:53:50 UTC\",\n  \"data\": {\n    \"authChecked\": true,\n    \"userRole\": \"AI_AGENT_AUTONOMOUS\",\n    \"allocatedHost\": \"https://api.modaui.ai/api/v1\",\n    \"envPort\": 3000\n  }\n}",
+  "systemBase.backToConsole": "Volver a la consola del sistema",
+  "systemBase.title": "Capa base del sistema",
+  "systemBase.apiSecurity": "Nivel de seguridad API: {{tier}}",
+  "systemBase.defaultPort": "Puerto de contenedor por defecto: {{port}}",
+  "systemBase.tab.rbac": "RBAC",
+  "systemBase.tab.api": "API / Swagger",
+  "systemBase.tab.firewall": "WAF / Firewall",
+  "systemBase.tab.queue": "Colas",
+  "systemBase.tab.bucket": "Almacenamiento",
+  "systemBase.rbacHeading": "Matriz de permisos RBAC",
+  "systemBase.table.role": "Rol",
+  "systemBase.table.scope": "Ámbito",
+  "systemBase.table.createShop": "Crear tienda",
+  "systemBase.table.deployAI": "Desplegar IA",
+  "systemBase.table.auditFinancials": "Auditar finanzas",
+  "systemBase.table.controls": "Controles",
+  "systemBase.apiEndpointsHeading": "Endpoints de API",
+  "systemBase.terminalResponseHeading": "Respuesta del terminal",
+  "ecc": {
+    "selectEngineer": "Selecciona ingeniero digital de precisión:",
+    "controlPanelTitle": "ECC | {{name}} ({{role}}) Panel de control",
+    "assignedTargetController": "Controlador de sistema objetivo asignado",
+    "isolatedCognitiveShield": "Escudo cognitivo aislado",
+    "securityKnobsTitle": "⚙️ Perillas de seguridad ECC",
+    "budgetLimitLabel": "Límite de autorización por transacción",
+    "isolateSpaceLabel": "Aislamiento de sandbox físico",
+    "strictFilterLabel": "Intercepción estricta de jailbreak",
+    "sandboxedOk": "SANDBOXED_OK",
+    "exposed": "EXPOSED",
+    "activeFilter": "ACTIVE_FILTER",
+    "bypassWarn": "BYPASS_WARN",
+    "specializedSkillsTitle": "🛠️ Interruptores de conjunto de habilidades especializadas",
+    "workspaceExplorerTitle": "📁 Explorador de archivos sandbox",
+    "newVirtualFilePlaceholder": "ej.: trend_eval.py",
+    "createButton": "＋ Crear",
+    "editingSandbox": "Editando sandbox: {{filename}}",
+    "cancel": "Cancelar",
+    "saveSandboxButton": "Escribir archivo y reiniciar Sandbox",
+    "openCodeViewerTitle": "Abrir visor de código",
+    "purgeSandboxAssetTitle": "Purgar activo de sandbox",
+    "thoughtTraceHeading": "🧠 ${{agent}} Terminal de seguimiento de pensamiento lectura/escritura:",
+    "skillOverridePlaceholder": "Personalizar anulación de instrucciones...",
+    "skills": {
+      "layout_autumn": {
+        "name": "Autumn/Winter layout self-heal",
+        "prompt": "Match QuietLuxury old-money energy and auto-align coat renderings."
+      },
+      "palette_generator": {
+        "name": "Multidimensional palette trend analysis",
+        "prompt": "Render RGB and hex palettes instantly for high-weighted categories."
+      },
+      "spu_poster_synth": {
+        "name": "Multimodal product poster layout",
+        "prompt": "Integrate with Gemini-2.0 Imageify for poster assembly."
+      },
+      "factory_reorder": {
+        "name": "Flexible OEM reorder",
+        "prompt": "Trigger blanket orders when SPU stock falls below 20% threshold."
+      },
+      "lead_time_forecast": {
+        "name": "Upstream fabric lead time forecast",
+        "prompt": "Calculate in-transit material days using multi-dimensional regression."
+      },
+      "supplier_pricing_guard": {
+        "name": "Supplier cost fluctuation guard",
+        "prompt": "Lock raw material escalation caps and tier discount purchase orders."
+      },
+      "voucher_balancing": {
+        "name": "Voucher balancing optimization",
+        "prompt": "Reconcile weekly rebates to ensure single-order net margin > 20%."
+      },
+      "conversion_tuning": {
+        "name": "Conversion tuning autopilot",
+        "prompt": "Track funnel leak and micro-adjust pricing in real time."
+      },
+      "tax_hedge_recon": {
+        "name": "Cross-border tax hedge reconciliation",
+        "prompt": "Compare Stripe revenue with customs invoices to hedge FX settlement losses."
+      },
+      "refund_authenticator": {
+        "name": "VIP refund authenticator",
+        "prompt": "Intercept complaint causes and refund along the original path."
+      },
+      "reappointment_handler": {
+        "name": "Appointment rescheduling handler",
+        "prompt": "Trigger CRM refunds and book next-day VIP service in the early hours."
+      },
+      "antifraud_screener": {
+        "name": "Group-buy fraud screener",
+        "prompt": "Compare registration credit scores and block multi-account returns."
+      },
+      "ad_bidding_calculator": {
+        "name": "Social ad bidding calculator",
+        "prompt": "Track trending keywords on Xiaohongshu and TikTok."
+      },
+      "pinterest_textify": {
+        "name": "Multimodal text virality engine",
+        "prompt": "Generate commute-friendly, slimming-enhancement copy headlines."
+      },
+      "seo_dynamic_injector": {
+        "name": "SEO hot keyword injector",
+        "prompt": "Rewrite top-selling keywords into store product titles automatically."
+      },
+      "token_cost_ledger": {
+        "name": "Daily compute cost ledger",
+        "prompt": "Compare each agent’s consumption and generate daily token accounting."
+      },
+      "payouts_tax_calculator": {
+        "name": "Payouts tax calculator",
+        "prompt": "Aggregate Stripe tax invoices and offset cross-border fees."
+      }
+    },
+    "log": {
+      "updateSecurity": "[Seguridad ECC] Se actualizó el parámetro de seguridad {{agentName}} [{{field}}] a {{value}}.",
+      "toggleSkill": "[Cambio de skill ECC] La skill '{{skillName}}' de {{agentName}} ahora está {{status}}.",
+      "enabled": "activada",
+      "disabled": "desactivada",
+      "createdVirtualFile": "[Sandbox ECC] Archivo virtual '{{fileName}}' creado para {{agentName}}.",
+      "deletedVirtualFile": "[Sandbox ECC] Archivo virtual '{{fileName}}' eliminado para {{agentName}}.",
+      "savedVirtualFile": "[Sandbox ECC] Archivo virtual '{{fileName}}' guardado para {{agentName}}."
+    }
+  }
+}

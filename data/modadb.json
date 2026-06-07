@@ -1,0 +1,304 @@
+{
+  "tenants": [
+    {
+      "id": "mer_test_fdo13k",
+      "quotaLimit": 1500,
+      "quotaUsed": 0,
+      "billingStatus": "paid",
+      "globalSettings": {
+        "maintenanceMode": false,
+        "allowRegistration": true
+      }
+    },
+    {
+      "id": "mer_p520gnvtx",
+      "quotaLimit": 5200,
+      "quotaUsed": 0,
+      "billingStatus": "paid"
+    }
+  ],
+  "merchants": [
+    {
+      "id": "mer_test_fdo13k",
+      "name": "SmokeTest Merchant",
+      "ownerId": "owner@smoketest",
+      "status": "active",
+      "billingPlan": "growth",
+      "createdAt": "2026-06-04T01:37:46.242Z"
+    },
+    {
+      "id": "mer_p520gnvtx",
+      "name": "SmokeWeb",
+      "ownerId": "owner@smoketest",
+      "status": "active",
+      "billingPlan": "growth",
+      "createdAt": "2026-06-04T01:39:28.187Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "43d3a5fc-465b-4f23-80b8-0e70aca801d0",
+      "timestamp": "2026-06-04T02:23:20.310Z",
+      "userId": "usr_r7gwxubjf",
+      "username": "Platform Admin",
+      "action": "USER_REGISTER",
+      "component": "AUTH",
+      "details": "User registration successful: admin@modaui.com"
+    },
+    {
+      "id": "0aa0f487-0ba9-4bac-9aba-6c3999191dc5",
+      "timestamp": "2026-06-04T01:39:32.299Z",
+      "userId": "system",
+      "username": "LVA",
+      "action": "ALLOC_QUOTA",
+      "component": "TENANT_ENGINE",
+      "details": "Allocated 200 to mer_p520gnvtx (smoke_increase)"
+    },
+    {
+      "id": "1a865e6e-06c6-4a2a-af9d-961291a6282c",
+      "timestamp": "2026-06-04T01:39:28.188Z",
+      "userId": "owner@smoketest",
+      "username": "SYSTEM",
+      "action": "MERCHANT_CREATE",
+      "component": "TENANT_ENGINE",
+      "details": "Merchant created: SmokeWeb (mer_p520gnvtx)"
+    },
+    {
+      "id": "ald_ky27w9n",
+      "timestamp": "2026-06-04T01:37:46.277Z",
+      "userId": "system",
+      "username": "system",
+      "action": "SMOKE_TEST_CREATE",
+      "component": "SMOKE",
+      "details": "Created tenant mer_test_fdo13k"
+    }
+  ],
+  "quota_allocations": [
+    {
+      "id": "qal_ne6fpm9",
+      "tenantId": "mer_test_fdo13k",
+      "add": 1000,
+      "reason": "smoke_test",
+      "createdAt": "2026-06-04T01:37:46.278Z"
+    },
+    {
+      "id": "qal_ok71wqg",
+      "tenantId": "mer_p520gnvtx",
+      "add": 200,
+      "reason": "smoke_increase",
+      "createdAt": "2026-06-04T01:39:32.299Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_admin",
+      "username": "platform_admin",
+      "email": "admin@admin.com",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "role": "Platform Admin",
+      "verified": true,
+      "createdAt": "2026-06-04T01:53:08.841Z"
+    },
+    {
+      "id": "usr_r7gwxubjf",
+      "username": "Platform Admin",
+      "email": "admin@modaui.com",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "Platform Admin",
+      "verified": true,
+      "createdAt": "2026-06-04T02:23:20.310Z",
+      "metadata": {}
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_demo_admin",
+      "userId": "usr_admin",
+      "expiresAt": "2026-06-05T01:53:08.841Z"
+    },
+    {
+      "id": "sess_b8hcy0zxr27",
+      "userId": "usr_r7gwxubjf",
+      "expiresAt": "2026-06-05T02:23:20.310Z"
+    }
+    ,
+    {
+      "id": "sess_local_admin",
+      "userId": "usr_admin",
+      "expiresAt": "2099-01-01T00:00:00.000Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "sto_mer_p520gnvtx_1",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 1",
+      "domain": "mer_p520gnvtx-store-1.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 1"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_2",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 2",
+      "domain": "mer_test_fdo13k-store-2.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 2"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_p520gnvtx_3",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 3",
+      "domain": "mer_p520gnvtx-store-3.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 3"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_4",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 4",
+      "domain": "mer_test_fdo13k-store-4.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 4"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_p520gnvtx_5",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 5",
+      "domain": "mer_p520gnvtx-store-5.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 5"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_6",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 6",
+      "domain": "mer_test_fdo13k-store-6.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 6"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_p520gnvtx_7",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 7",
+      "domain": "mer_p520gnvtx-store-7.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 7"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_8",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 8",
+      "domain": "mer_test_fdo13k-store-8.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 8"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_p520gnvtx_9",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 9",
+      "domain": "mer_p520gnvtx-store-9.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 9"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_10",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 10",
+      "domain": "mer_test_fdo13k-store-10.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 10"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_p520gnvtx_11",
+      "merchantId": "mer_p520gnvtx",
+      "name": "示例店铺 11",
+      "domain": "mer_p520gnvtx-store-11.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 11"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    },
+    {
+      "id": "sto_mer_test_fdo13k_12",
+      "merchantId": "mer_test_fdo13k",
+      "name": "示例店铺 12",
+      "domain": "mer_test_fdo13k-store-12.modaui.com",
+      "branding": {
+        "logo": "🏬",
+        "colorTheme": "classic",
+        "bannerText": "欢迎来到 示例店铺 12"
+      },
+      "createdAt": "2026-06-04T01:50:01.028Z"
+    }
+  ],
+  "products": [],
+  "carts": [],
+  "orders": [],
+  "payments": [],
+  "finance": [],
+  "ai_teams": [],
+  "ai_agents": [],
+  "kb_chunks": [],
+  "agent_tasks": [],
+  "appInstallations": [],
+  "campaigns": [],
+  "campaignAnalytics": [],
+  "channelConnections": [],
+  "roles": [],
+  "staffPermissions": [],
+  "themes": [],
+  "webhookRegistrations": [],
+  "webhookLogs": [],
+  "apiKeys": [],
+  "currencies": [],
+  "paymentLinks": [],
+  "virtualCards": [],
+  "p2pOffers": [],
+  "wallets": [],
+  "giftCards": [],
+  "subscriptions": [],
+  "transactions": []
+}
