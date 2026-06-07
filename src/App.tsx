@@ -20,6 +20,8 @@ import AIRuntimeView from './components/AIRuntimeView';
 import KnowledgeBaseView from './components/KnowledgeBaseView';
 import PlatformAdminView from './components/PlatformAdminView';
 import UserSettingsView from './components/UserSettingsView';
+import PrivacyPolicyView from './components/PrivacyPolicyView';
+import TermsOfServiceView from './components/TermsOfServiceView';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import { apiService } from './services/apiService';
 
@@ -45,6 +47,8 @@ export default function App() {
     KNOWLEDGE_BASE: '/admin/knowledge',
     PLATFORM_ADMIN: '/adminx',
     USER_SETTINGS: '/settings',
+    PRIVACY_POLICY: '/privacy',
+    TERMS_OF_SERVICE: '/terms',
   };
 
   const getInitialStep = (): FlowStep => {
@@ -73,6 +77,12 @@ export default function App() {
     }
     if (path.startsWith('/shop/')) {
       return 'CUSTOMER_STOREFRONT';
+    }
+    if (path === '/privacy') {
+      return 'PRIVACY_POLICY';
+    }
+    if (path === '/terms') {
+      return 'TERMS_OF_SERVICE';
     }
     return 'LANDING';
   };
@@ -274,6 +284,8 @@ export default function App() {
     KNOWLEDGE_BASE: { path: 'modaui.com/admin/knowledge', name: t('knowledge_base'), tag: 'KNOWLEDGE' },
     PLATFORM_ADMIN: { path: 'modaui.com/adminx', name: t('super_control'), tag: 'SUPER_SaaS' },
     USER_SETTINGS: { path: 'modaui.com/settings', name: '账号设置', tag: 'SETTINGS' },
+    PRIVACY_POLICY: { path: 'modaui.com/privacy', name: '隐私权政策', tag: 'LEGAL' },
+    TERMS_OF_SERVICE: { path: 'modaui.com/terms', name: '服务条款', tag: 'LEGAL' },
   };
 
   const currentPathMeta = step === 'PLATFORM_ADMIN'
@@ -305,6 +317,8 @@ export default function App() {
               onStartFlow={handleStartFlow} 
               onSelectIndustry={handleSelectIndustryFromCard} 
               onNavigatePlatformAdmin={() => setStep('PLATFORM_ADMIN')}
+              onNavigateToPrivacy={() => setStep('PRIVACY_POLICY')}
+              onNavigateToTerms={() => setStep('TERMS_OF_SERVICE')}
             />
 
             {/* Float Google Login overlay if triggered from industry card */}
@@ -640,6 +654,34 @@ export default function App() {
             className="min-h-screen"
           >
             <UserSettingsView onBack={() => setStep('DASHBOARD')} />
+          </motion.div>
+        )}
+
+        {/* Step 13: Privacy Policy (隐私权政策) */}
+        {step === 'PRIVACY_POLICY' && (
+          <motion.div
+            key="privacy-policy"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="min-h-screen"
+          >
+            <PrivacyPolicyView onBack={() => setStep('LANDING')} />
+          </motion.div>
+        )}
+
+        {/* Step 14: Terms of Service (服务条款) */}
+        {step === 'TERMS_OF_SERVICE' && (
+          <motion.div
+            key="terms-of-service"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="min-h-screen"
+          >
+            <TermsOfServiceView onBack={() => setStep('LANDING')} />
           </motion.div>
         )}
 

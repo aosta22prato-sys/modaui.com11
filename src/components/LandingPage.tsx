@@ -12,9 +12,11 @@ interface LandingPageProps {
   onStartFlow: (industryId?: string) => void;
   onSelectIndustry: (id: string) => void;
   onNavigatePlatformAdmin?: () => void;
+  onNavigateToPrivacy?: () => void;
+  onNavigateToTerms?: () => void;
 }
 
-export default function LandingPage({ onStartFlow, onSelectIndustry, onNavigatePlatformAdmin }: LandingPageProps) {
+export default function LandingPage({ onStartFlow, onSelectIndustry, onNavigatePlatformAdmin, onNavigateToPrivacy, onNavigateToTerms }: LandingPageProps) {
   const { t } = useTranslation();
   const adminEntryUrl = import.meta.env.VITE_ADMIN_URL || '';
   const [activeShowcaseId, setActiveShowcaseId] = useState('fashion');
@@ -411,8 +413,18 @@ export default function LandingPage({ onStartFlow, onSelectIndustry, onNavigateP
             <span className="text-white">MODA UI © {new Date().getFullYear()}</span>
             <span className="text-[#2F3336]">|</span>
             <a href="#about" className="hover:text-white transition-colors">关于我们</a>
-            <a href="#privacy" className="hover:text-white transition-colors">隐私政策</a>
-            <a href="#contact" className="hover:text-white transition-colors">使用条款</a>
+            <button 
+              onClick={onNavigateToPrivacy}
+              className="hover:text-white transition-colors cursor-pointer bg-none border-none p-0 text-[#8B949E]"
+            >
+              隐私政策
+            </button>
+            <button 
+              onClick={onNavigateToTerms}
+              className="hover:text-white transition-colors cursor-pointer bg-none border-none p-0 text-[#8B949E]"
+            >
+              服务条款
+            </button>
           </div>
         </div>
       </footer>

@@ -10,7 +10,9 @@ export type FlowStep =
   | 'AI_RUNTIME'
   | 'KNOWLEDGE_BASE'
   | 'PLATFORM_ADMIN'
-  | 'USER_SETTINGS';
+  | 'USER_SETTINGS'
+  | 'PRIVACY_POLICY'
+  | 'TERMS_OF_SERVICE';
 
 export interface Industry {
   id: string;
